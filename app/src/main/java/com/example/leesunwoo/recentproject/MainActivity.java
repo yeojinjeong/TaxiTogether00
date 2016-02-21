@@ -158,7 +158,9 @@ public class MainActivity extends Activity {
 
     public void createBtnClicked(View v)
     {
-
+        Intent intent = new Intent(getApplicationContext(), Main_Create_Btn_Page.class);
+        startActivity(intent);
+        finish();
     }
 
     public void homeBtnClicked(View v)
